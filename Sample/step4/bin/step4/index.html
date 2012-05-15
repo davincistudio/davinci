@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<html id="obj_1">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+			<title>
+				DaVinci Basic Template
+			</title>
+			<link rel="stylesheet" href="davinci/system/framework/jquery.dvc.css">
+			<link rel="stylesheet" href="main.css">
+			<link rel="stylesheet" href="animations.css">
+			<script type="text/javascript" src="davinci/system/device/device.dvc.js">
+			</script>
+			<script type="text/javascript" src="davinci/system/framework/jquery.js">
+			</script>
+			<script type="text/javascript" src="davinci/system/framework/jquery.dvc.js">
+			</script>
+			<script type="text/javascript" src="main.js">
+			</script>
+		</head>
+		<body>
+			<div data-role="page" id="pgMain">
+				<div data-role="dvcContent" id="obj_0">
+					<div style="height:100%;" id="Layoutview_0" data-role="dvcLayoutview" ev-onclick="Layoutview_0_onclick">
+						<div style="left:64px;top:150px;width:200px;height:32px;font-size:20px;" id="Label_0" data-role="dvcLabel" data-text="Welcome to DaVinci!!">
+						</div>
+						<div style="left:136px;top:207px;height:29px;" id="btnChange" data-role="dvcButton" data-text="Change">
+						</div>
+					</div>
+				</div>
+				<div id="Footer_0" data-role="dvcFooter">
+				</div>
+				<div id="Header_0" data-role="dvcHeader" ev-onclick="Header_0_onclick">
+					<div style="left:255px;top:6px;height:29px;" id="btnNext1" data-role="dvcButton" data-text="Next">
+					</div>
+				</div>
+			</div>
+			<div data-role="page" id="pgSecond">
+				<div data-role="dvcContent" id="obj_2">
+					<div style="height:100%;" id="Layoutview_1" data-role="dvcLayoutview">
+						<div style="left:40px;top:50px;width:235px;height:200px;" id="Image_0" data-role="dvcImage" data-src="images/Flower.png" data-image-type="stretch">
+						</div>
+					</div>
+				</div>
+				<div id="Header_1" data-role="dvcHeader" ev-onclick="Header_1_onclick">
+					<div style="left:13px;top:7px;height:29px;" id="btnBack1" data-role="dvcButton" data-text="Back" data-button-type="back">
+					</div>
+					<div style="left:255px;top:7px;height:29px;" id="btnNext2" data-role="dvcButton" data-text="Next">
+					</div>
+				</div>
+				<div id="Footer_1" data-role="dvcFooter">
+				</div>
+			</div>
+			<div data-role="page" id="pgThird" ev-onpageshow="pgThird_onpageshow">
+				<div data-role="dvcContent" id="obj_3">
+					<div style="left:0px;right:0px;top:0px;bottom:0px;" id="Scrollview_0" data-role="dvcScrollview">
+						<div style="height:60px;" id="lstvItem" data-role="dvcListview">
+							<div style="left:25px;top:19px;width:100px;height:20px;" id="lblItem" data-role="dvcLabel" data-text="Item">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Header_2" data-role="dvcHeader" ev-onclick="Header_2_onclick">
+					<div style="left:13px;top:6px;height:29px;" id="btnBack2" data-role="dvcButton" data-text="Back" data-button-type="back">
+					</div>
+				</div>
+				<div id="Footer_2" data-role="dvcFooter">
+				</div>
+			</div>
+		</body>
+	</html>
