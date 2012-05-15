@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+	<html id="obj_0">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+			<title>
+				DaVinci Basic Template
+			</title>
+			<link rel="stylesheet" href="davinci/system/framework/jquery.dvc.css">
+			<link rel="stylesheet" href="main.css">
+			<link rel="stylesheet" href="animations.css">
+			<script type="text/javascript" src="davinci/system/device/device.dvc.js">
+			</script>
+			<script type="text/javascript" src="davinci/system/framework/jquery.js">
+			</script>
+			<script type="text/javascript" src="davinci/system/framework/jquery.dvc.js">
+			</script>
+			<script type="text/javascript" src="main.js">
+			</script>
+		</head>
+		<body>
+			<div data-role="page" id="pgMain" style="left:2px;top:-1px;" subid="lblDaVinci" data-text="Welcome to Davinci!!">
+				<div data-role="dvcContent" id="obj_1">
+					<div style="height:100%;" id="layvMain" data-role="dvcLayoutview" ev-onclick="layvMain_onclick">
+						<div style="left:0px;top:133px;height:42px;font-size:22px;right:0px;" id="lblDaVinci" data-role="dvcLabel" data-text="Welcome to Davinci!!" data-text-align="center" subid="lblDaVinci">
+						</div>
+						<div style="left:130px;top:251px;height:29px;min-width:60px;max-width:60px;right:130px;" id="btnChange" data-role="dvcButton" data-text="Change" subid="btnChange">
+						</div>
+					</div>
+				</div>
+				<div id="hdrMain" data-role="dvcHeader" ev-onclick="hdrMain_onclick">
+					<div style="top:5px;height:29px;min-width:50px;max-width:50px;right:5px;" id="btnNext_1" data-role="dvcButton" data-text="Next" subid="btnNext_1">
+					</div>
+				</div>
+				<div id="ftrMain" data-role="dvcFooter">
+				</div>
+			</div>
+			<div data-role="page" id="pgSecond">
+				<div data-role="dvcContent" id="obj_2">
+					<div style="height:100%;" id="layvSecond" data-role="dvcLayoutview">
+						<div style="left:60px;top:70px;width:200px;height:200px;" id="imgFlower" data-role="dvcImage" subid="imgFlower" data-image-type="stretch" data-src="images/Flower.png">
+						</div>
+					</div>
+				</div>
+				<div id="hrdSecond" data-role="dvcHeader" ev-onclick="hrdSecond_onclick">
+					<div style="left:5px;top:5px;height:29px;min-width:50px;max-width:50px;" id="btnBack_1" data-role="dvcButton" data-text="Back" data-button-type="back" subid="btnBack_1">
+					</div>
+				</div>
+				<div id="ftrSecond" data-role="dvcFooter">
+				</div>
+			</div>
+		</body>
+	</html>

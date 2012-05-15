@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+	xml:lang="ko"
+	id="step3"
+	version="1.0.0"
+	viewmodes="fullscreen">
+
+	<app-name><![CDATA[step3]]></app-name>
+	<content src="index.html" />
+	<icon src="" />
+
+	<splash-image-portrait src="" />
+	<splash-image-landscape src="" />
+	<device-type src="Phone" />
+	<device-width  src="320" />
+	<device-height src="480" />
+
+	<startup>
+		<display-orientation>AUTO</display-orientation>
+	</startup>
+
+	<user-properties>
+	</user-properties>
+
+	<system-properties>
+	</system-properties>
+
+	<package-id src="step3"/>
+	<build-target src="android-8"/>
+	<keystore src=""/>
+	<keystore-alias src=""/>
+	<keystore-password src="EA922695275F748C068F848FF28948DD"/>
+	<keystore-keypass src="EA922695275F748C068F848FF28948DD"/>
+
+
+	<bundle-identification src="step3"/>
+	<codesign-identification src=""/>
+	<mobile-provision src="Team profile"/>
+	<mobile-certification src="iPhone Developer: sunho kim (LTHDWN85W7)"/>
+</widget>
